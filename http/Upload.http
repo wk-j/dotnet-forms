@@ -1,0 +1,59 @@
+POST http://localhost:5000/F
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryWs0G3Gg7JGNdxO6g
+
+------WebKitFormBoundaryWs0G3Gg7JGNdxO6g
+Content-Disposition: form-data; name="Id"
+
+34
+------WebKitFormBoundaryWs0G3Gg7JGNdxO6g
+Content-Disposition: form-data; name="DocumentNumber"
+
+N-CHROME
+------WebKitFormBoundaryWs0G3Gg7JGNdxO6g
+Content-Disposition: form-data; name="DocumentIssue"
+
+I-CHROME
+------WebKitFormBoundaryWs0G3Gg7JGNdxO6g
+Content-Disposition: form-data; name="DocumentRevision"
+
+R-CHROME
+------WebKitFormBoundaryWs0G3Gg7JGNdxO6g
+Content-Disposition: form-data; name="RequestorPrepareUserId"
+
+54
+------WebKitFormBoundaryWs0G3Gg7JGNdxO6g
+Content-Disposition: form-data; name="RequestorApproveUserId"
+
+1
+------WebKitFormBoundaryWs0G3Gg7JGNdxO6g
+Content-Disposition: form-data; name="RequestorApproveDate"
+
+2020-01-29T09:48:40.604Z
+------WebKitFormBoundaryWs0G3Gg7JGNdxO6g
+Content-Disposition: form-data; name="UpdateReason"
+
+R-CHROME
+------WebKitFormBoundaryWs0G3Gg7JGNdxO6g
+Content-Disposition: form-data; name="Remark"
+
+N-CHROME
+------WebKitFormBoundaryWs0G3Gg7JGNdxO6g
+Content-Disposition: form-data; name="IsCancellation"
+
+false
+------WebKitFormBoundaryWs0G3Gg7JGNdxO6g
+Content-Disposition: form-data; name="FileData"; filename="chrome.pdf"
+Content-Type: application/pdf
+
+< ./http/chrome.pdf
+------WebKitFormBoundaryWs0G3Gg7JGNdxO6g
+Content-Disposition: form-data; name="FileData"; filename="chrome2.pdf"
+Content-Type: application/pdf
+
+< ./http/chrome.pdf
+
+------WebKitFormBoundaryWs0G3Gg7JGNdxO6g
+Content-Disposition: form-data; name="JsonAdditionUsersId"
+
+[33,1]
+------WebKitFormBoundaryWs0G3Gg7JGNdxO6g--
